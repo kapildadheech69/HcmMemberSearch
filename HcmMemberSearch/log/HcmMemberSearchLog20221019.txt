@@ -1,0 +1,88 @@
+2022-10-19 08:14:22.346 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-19 08:14:22.440 +05:30 [DBG] Hosting starting
+2022-10-19 08:14:22.502 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-19 08:14:22.503 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-19 08:14:22.503 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-19 08:14:22.503 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-19 08:14:22.503 +05:30 [INF] Hosting environment: Development
+2022-10-19 08:14:22.503 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-19 08:14:22.503 +05:30 [DBG] Hosting started
+2022-10-19 08:14:22.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-19 08:14:22.566 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-19 08:14:22.583 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-19 08:14:22.584 +05:30 [DBG] Request did not match any endpoints
+2022-10-19 08:14:22.662 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-19 08:14:23.320 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-19 08:14:23.324 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 797.5782ms
+2022-10-19 08:14:23.325 +05:30 [DBG] Connection ID "18230571327566118965" disconnecting.
+2022-10-19 08:14:23.328 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-19 08:14:23.331 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.2542ms
+2022-10-19 08:14:23.331 +05:30 [DBG] Connection ID "18158513712053355022" disconnecting.
+2022-10-19 08:14:23.350 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-19 08:14:23.640 +05:30 [DBG] Connection ID "18374686502757073057" disconnecting.
+2022-10-19 08:14:23.641 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 290.6398ms
+2022-10-19 08:14:23.699 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-19 08:14:23.700 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-19 08:14:23.700 +05:30 [DBG] Request did not match any endpoints
+2022-10-19 08:14:23.800 +05:30 [DBG] Connection ID "18230571327566118967" disconnecting.
+2022-10-19 08:14:23.800 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.6817ms
+2022-10-19 08:14:35.440 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/HealthCare/ByMemberId/2 - -
+2022-10-19 08:14:35.447 +05:30 [DBG] 1 candidate(s) found for the request path '/HealthCare/ByMemberId/2'
+2022-10-19 08:14:35.450 +05:30 [DBG] Endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)' with route pattern 'HealthCare/ByMemberId/{id}' is valid for the request path '/HealthCare/ByMemberId/2'
+2022-10-19 08:14:35.451 +05:30 [DBG] Request matched endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-19 08:14:35.452 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-19 08:14:35.454 +05:30 [INF] Executing endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-19 08:14:35.484 +05:30 [INF] Route matched with {action = "GetMemberByMemberId", controller = "MemberSearch"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HcmMemberSearch.Modals.Member]] GetMemberByMemberId(Int32) on controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch).
+2022-10-19 08:14:35.487 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-19 08:14:35.487 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-19 08:14:35.487 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-19 08:14:35.487 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-19 08:14:35.488 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-19 08:14:35.489 +05:30 [DBG] Executing controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-19 08:14:35.490 +05:30 [DBG] Executed controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-19 08:14:35.493 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-19 08:14:35.494 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-19 08:14:35.495 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-19 08:14:35.495 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-19 08:14:35.495 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-19 08:14:35.496 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-19 08:14:35.507 +05:30 [INF] Getting members from member microservice
+2022-10-19 08:14:39.674 +05:30 [INF] Executed action HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch) in 4182.8056ms
+2022-10-19 08:14:39.675 +05:30 [INF] Executed endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-19 08:14:39.676 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:44335)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at HcmMemberSearch.Provider.Members.GetMembersAsync() in C:\HCM\HcmMemberSearch\HcmMemberSearch\Provider\Members.cs:line 22
+   at HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId(Int32 id) in C:\HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs:line 34
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-10-19 08:14:39.788 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/HealthCare/ByMemberId/2 - - - 500 - text/plain;+charset=utf-8 4347.9295ms
+2022-10-19 08:14:39.788 +05:30 [DBG] Connection ID "18374686502757073059" disconnecting.

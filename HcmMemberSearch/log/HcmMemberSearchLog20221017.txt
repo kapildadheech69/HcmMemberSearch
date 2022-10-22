@@ -1,0 +1,710 @@
+2022-10-17 13:36:32.445 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 13:36:32.548 +05:30 [DBG] Hosting starting
+2022-10-17 13:36:32.610 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 13:36:32.610 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 13:36:32.610 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 13:36:32.611 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 13:36:32.611 +05:30 [INF] Hosting environment: Development
+2022-10-17 13:36:32.611 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 13:36:32.611 +05:30 [DBG] Hosting started
+2022-10-17 13:36:32.635 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 13:36:32.677 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 13:36:32.695 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 13:36:32.695 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 13:36:32.776 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 13:36:33.501 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 13:36:33.504 +05:30 [DBG] Connection ID "18302628891539275859" disconnecting.
+2022-10-17 13:36:33.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 871.3921ms
+2022-10-17 13:36:33.508 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 13:36:33.511 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.2582ms
+2022-10-17 13:36:33.511 +05:30 [DBG] Connection ID "18302628895834243526" disconnecting.
+2022-10-17 13:36:33.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 13:36:33.598 +05:30 [DBG] Connection ID "18302628921604047016" disconnecting.
+2022-10-17 13:36:33.599 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.9732ms
+2022-10-17 13:36:33.665 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 13:36:33.666 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 13:36:33.666 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 13:36:33.775 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.5533ms
+2022-10-17 13:36:33.775 +05:30 [DBG] Connection ID "18302628895834243528" disconnecting.
+2022-10-17 13:37:44.286 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/HealthCare/ByMemberId/2 - -
+2022-10-17 13:37:44.292 +05:30 [DBG] 1 candidate(s) found for the request path '/HealthCare/ByMemberId/2'
+2022-10-17 13:37:44.297 +05:30 [DBG] Endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)' with route pattern 'HealthCare/ByMemberId/{id}' is valid for the request path '/HealthCare/ByMemberId/2'
+2022-10-17 13:37:44.298 +05:30 [DBG] Request matched endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-17 13:37:44.299 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-17 13:37:44.302 +05:30 [INF] Executing endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-17 13:37:44.340 +05:30 [INF] Route matched with {action = "GetMemberByMemberId", controller = "MemberSearch"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HcmMemberSearch.Modals.Member]] GetMemberByMemberId(Int32) on controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch).
+2022-10-17 13:37:44.344 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-17 13:37:44.344 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-17 13:37:44.344 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-17 13:37:44.344 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-17 13:37:44.344 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-17 13:37:44.345 +05:30 [DBG] Executing controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-17 13:37:44.347 +05:30 [DBG] Executed controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-17 13:37:44.351 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-17 13:37:44.353 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-17 13:37:44.354 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-17 13:37:44.354 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-17 13:37:44.354 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-17 13:37:44.356 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-17 13:37:44.368 +05:30 [INF] Getting members from member microservice
+2022-10-17 13:37:46.758 +05:30 [INF] filtering member based on id provided
+2022-10-17 13:37:46.762 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-10-17 13:37:46.765 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-10-17 13:37:46.765 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-10-17 13:37:46.765 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-17 13:37:46.765 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-17 13:37:46.766 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-17 13:37:46.766 +05:30 [INF] Executing OkObjectResult, writing value of type 'HcmMemberSearch.Modals.Member'.
+2022-10-17 13:37:46.780 +05:30 [INF] Executed action HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch) in 2430.6065ms
+2022-10-17 13:37:46.781 +05:30 [INF] Executed endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-17 13:37:46.781 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/HealthCare/ByMemberId/2 - - - 200 - application/json;+charset=utf-8 2495.0470ms
+2022-10-17 13:41:06.448 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 13:41:06.555 +05:30 [DBG] Hosting starting
+2022-10-17 13:41:06.603 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 13:41:06.603 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 13:41:06.603 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 13:41:06.603 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 13:41:06.603 +05:30 [INF] Hosting environment: Development
+2022-10-17 13:41:06.603 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 13:41:06.603 +05:30 [DBG] Hosting started
+2022-10-17 13:41:06.625 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 13:41:06.675 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 13:41:06.697 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 13:41:06.697 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 13:41:06.785 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 13:41:07.441 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 13:41:07.444 +05:30 [DBG] Connection ID "18374686515641974940" disconnecting.
+2022-10-17 13:41:07.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 822.0723ms
+2022-10-17 13:41:07.453 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 13:41:07.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 13:41:07.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.9433ms
+2022-10-17 13:41:07.546 +05:30 [DBG] Connection ID "18374686519936942530" disconnecting.
+2022-10-17 13:41:07.547 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.4715ms
+2022-10-17 13:41:07.629 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 13:41:07.629 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 13:41:07.630 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 13:41:07.725 +05:30 [DBG] Connection ID "18302628895834243530" disconnecting.
+2022-10-17 13:41:07.725 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.3361ms
+2022-10-17 13:46:10.645 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 13:46:10.728 +05:30 [DBG] Hosting starting
+2022-10-17 13:46:10.768 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 13:46:10.768 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 13:46:10.768 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 13:46:10.768 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 13:46:10.768 +05:30 [INF] Hosting environment: Development
+2022-10-17 13:46:10.768 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 13:46:10.768 +05:30 [DBG] Hosting started
+2022-10-17 13:46:10.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 13:46:10.816 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 13:46:10.833 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 13:46:10.833 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 13:46:10.911 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 13:46:11.002 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 13:46:11.004 +05:30 [DBG] Connection ID "18374686485577203826" disconnecting.
+2022-10-17 13:46:11.005 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 219.9500ms
+2022-10-17 13:46:11.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 13:46:11.014 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 13:46:11.022 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 6.9377ms
+2022-10-17 13:46:11.050 +05:30 [DBG] Connection ID "18086456118015426796" disconnecting.
+2022-10-17 13:46:11.050 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.4808ms
+2022-10-17 13:46:11.191 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 13:46:11.191 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 13:46:11.191 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 13:46:11.269 +05:30 [DBG] Connection ID "18158513737823158533" disconnecting.
+2022-10-17 13:46:11.269 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.2662ms
+2022-10-17 13:46:35.268 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/HealthCare/ByMemberId/2 - -
+2022-10-17 13:46:35.274 +05:30 [DBG] 1 candidate(s) found for the request path '/HealthCare/ByMemberId/2'
+2022-10-17 13:46:35.276 +05:30 [DBG] Endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)' with route pattern 'HealthCare/ByMemberId/{id}' is valid for the request path '/HealthCare/ByMemberId/2'
+2022-10-17 13:46:35.277 +05:30 [DBG] Request matched endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-17 13:46:35.278 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-17 13:46:35.279 +05:30 [INF] Executing endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-17 13:46:35.302 +05:30 [INF] Route matched with {action = "GetMemberByMemberId", controller = "MemberSearch"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HcmMemberSearch.Modals.Member]] GetMemberByMemberId(Int32) on controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch).
+2022-10-17 13:46:35.305 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-17 13:46:35.306 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-17 13:46:35.306 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-17 13:46:35.306 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-17 13:46:35.306 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-17 13:46:35.306 +05:30 [DBG] Executing controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-17 13:46:35.308 +05:30 [DBG] Executed controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-17 13:46:35.310 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2022-10-17 13:46:35.311 +05:30 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2022-10-17 13:46:35.312 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-17 13:46:35.312 +05:30 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2022-10-17 13:46:35.312 +05:30 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2022-10-17 13:46:35.313 +05:30 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2022-10-17 13:46:35.317 +05:30 [INF] Getting members from member microservice
+2022-10-17 13:46:36.937 +05:30 [INF] filtering member based on id provided
+2022-10-17 13:46:36.940 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-10-17 13:46:36.942 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-10-17 13:46:36.942 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-10-17 13:46:36.942 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-17 13:46:36.942 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-17 13:46:36.943 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-17 13:46:36.943 +05:30 [INF] Executing OkObjectResult, writing value of type 'HcmMemberSearch.Modals.Member'.
+2022-10-17 13:46:36.952 +05:30 [INF] Executed action HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch) in 1642.0968ms
+2022-10-17 13:46:36.953 +05:30 [INF] Executed endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMemberByMemberId (HcmMemberSearch)'
+2022-10-17 13:46:36.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/HealthCare/ByMemberId/2 - - - 200 - application/json;+charset=utf-8 1685.2674ms
+2022-10-17 14:42:16.577 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 14:42:16.662 +05:30 [DBG] Hosting starting
+2022-10-17 14:42:16.697 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 14:42:16.697 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 14:42:16.697 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 14:42:16.697 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 14:42:16.697 +05:30 [INF] Hosting environment: Development
+2022-10-17 14:42:16.697 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 14:42:16.697 +05:30 [DBG] Hosting started
+2022-10-17 14:42:16.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 14:42:16.731 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 14:42:16.744 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 14:42:16.744 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 14:42:16.800 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 14:42:16.881 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 14:42:16.883 +05:30 [DBG] Connection ID "18230571318976184475" disconnecting.
+2022-10-17 14:42:16.884 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 173.4769ms
+2022-10-17 14:42:16.886 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 14:42:16.891 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 4.4842ms
+2022-10-17 14:42:16.891 +05:30 [DBG] Connection ID "18086456105130524682" disconnecting.
+2022-10-17 14:42:16.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 14:42:16.935 +05:30 [DBG] Connection ID "18374686524231909457" disconnecting.
+2022-10-17 14:42:16.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9473ms
+2022-10-17 14:42:17.066 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 14:42:17.066 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 14:42:17.066 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 14:42:17.156 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.3192ms
+2022-10-17 14:42:17.156 +05:30 [DBG] Connection ID "18230571318976184477" disconnecting.
+2022-10-17 15:48:22.265 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 15:48:22.365 +05:30 [DBG] Hosting starting
+2022-10-17 15:48:22.405 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 15:48:22.406 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 15:48:22.406 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 15:48:22.406 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 15:48:22.406 +05:30 [INF] Hosting environment: Development
+2022-10-17 15:48:22.406 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 15:48:22.406 +05:30 [DBG] Hosting started
+2022-10-17 15:48:22.425 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 15:48:22.447 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 15:48:22.463 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 15:48:22.464 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:48:22.536 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 15:48:22.635 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 15:48:22.637 +05:30 [DBG] Connection ID "18230571301796315292" disconnecting.
+2022-10-17 15:48:22.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 215.4378ms
+2022-10-17 15:48:22.642 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 15:48:22.646 +05:30 [DBG] Connection ID "18230571301796315294" disconnecting.
+2022-10-17 15:48:22.646 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.2564ms
+2022-10-17 15:48:22.661 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 15:48:22.695 +05:30 [DBG] Connection ID "18014398558337237003" disconnecting.
+2022-10-17 15:48:22.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7158ms
+2022-10-17 15:48:22.790 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 15:48:22.790 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 15:48:22.790 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:48:22.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.3814ms
+2022-10-17 15:48:22.880 +05:30 [DBG] Connection ID "17798225759043584051" disconnecting.
+2022-10-17 15:48:41.056 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 15:48:41.153 +05:30 [DBG] Hosting starting
+2022-10-17 15:48:41.202 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 15:48:41.202 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 15:48:41.202 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 15:48:41.202 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 15:48:41.203 +05:30 [INF] Hosting environment: Development
+2022-10-17 15:48:41.203 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 15:48:41.203 +05:30 [DBG] Hosting started
+2022-10-17 15:48:41.226 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 15:48:41.256 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 15:48:41.278 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 15:48:41.278 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:48:41.368 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 15:48:41.476 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 15:48:41.478 +05:30 [DBG] Connection ID "18230571318976184479" disconnecting.
+2022-10-17 15:48:41.479 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 256.4565ms
+2022-10-17 15:48:41.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 15:48:41.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 15:48:41.489 +05:30 [DBG] Connection ID "18230571306091282556" disconnecting.
+2022-10-17 15:48:41.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.2801ms
+2022-10-17 15:48:41.518 +05:30 [DBG] Connection ID "18086456118015426809" disconnecting.
+2022-10-17 15:48:41.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8355ms
+2022-10-17 15:48:41.618 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 15:48:41.619 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 15:48:41.619 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:48:41.626 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/favicon-32x32.png - -
+2022-10-17 15:48:41.626 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2022-10-17 15:48:41.626 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:48:41.635 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-10-17 15:48:41.636 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/favicon-32x32.png - - - 200 628 image/png 9.7599ms
+2022-10-17 15:48:41.712 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.0113ms
+2022-10-17 15:48:41.712 +05:30 [DBG] Connection ID "18158513737823158588" disconnecting.
+2022-10-17 15:57:23.887 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 15:57:23.987 +05:30 [DBG] Hosting starting
+2022-10-17 15:57:24.032 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 15:57:24.032 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 15:57:24.032 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 15:57:24.032 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 15:57:24.032 +05:30 [INF] Hosting environment: Development
+2022-10-17 15:57:24.032 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 15:57:24.032 +05:30 [DBG] Hosting started
+2022-10-17 15:57:24.054 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 15:57:24.123 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 15:57:24.144 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 15:57:24.144 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:57:24.221 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 15:57:24.856 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 15:57:24.859 +05:30 [DBG] Connection ID "18158513716348322150" disconnecting.
+2022-10-17 15:57:24.859 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 807.5518ms
+2022-10-17 15:57:24.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 15:57:24.881 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.6649ms
+2022-10-17 15:57:24.888 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 15:57:24.953 +05:30 [DBG] Connection ID "18230571314681217121" disconnecting.
+2022-10-17 15:57:24.953 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.7215ms
+2022-10-17 15:57:25.026 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 15:57:25.026 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 15:57:25.026 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:57:25.114 +05:30 [DBG] Connection ID "17798225759043584059" disconnecting.
+2022-10-17 15:57:25.114 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.7499ms
+2022-10-17 15:57:39.417 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/HealthCare/GetMembersByPhysicianName?name=Mark - -
+2022-10-17 15:57:39.424 +05:30 [DBG] 1 candidate(s) found for the request path '/HealthCare/GetMembersByPhysicianName'
+2022-10-17 15:57:39.429 +05:30 [DBG] Endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMembersByPhysicianName (HcmMemberSearch)' with route pattern 'HealthCare/GetMembersByPhysicianName' is valid for the request path '/HealthCare/GetMembersByPhysicianName'
+2022-10-17 15:57:39.429 +05:30 [DBG] Request matched endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMembersByPhysicianName (HcmMemberSearch)'
+2022-10-17 15:57:39.430 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2022-10-17 15:57:39.432 +05:30 [INF] Executing endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMembersByPhysicianName (HcmMemberSearch)'
+2022-10-17 15:57:39.465 +05:30 [INF] Route matched with {action = "GetMembersByPhysicianName", controller = "MemberSearch"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[HcmMemberSearch.Modals.Member]] GetMembersByPhysicianName(System.String) on controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch).
+2022-10-17 15:57:39.468 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-17 15:57:39.468 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-17 15:57:39.468 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-10-17 15:57:39.468 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-17 15:57:39.468 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-10-17 15:57:39.469 +05:30 [DBG] Executing controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-17 15:57:39.470 +05:30 [DBG] Executed controller factory for controller HcmMemberSearch.Controllers.MemberSearch (HcmMemberSearch)
+2022-10-17 15:57:39.477 +05:30 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2022-10-17 15:57:39.479 +05:30 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ...
+2022-10-17 15:57:39.479 +05:30 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-10-17 15:57:39.479 +05:30 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-10-17 15:57:39.479 +05:30 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2022-10-17 15:57:39.481 +05:30 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2022-10-17 15:57:39.483 +05:30 [INF] Getting members from member microservice
+2022-10-17 15:57:39.741 +05:30 [INF] Getting physician from physician microservice
+2022-10-17 15:57:39.753 +05:30 [INF] Filtering physician based on physician name
+2022-10-17 15:57:39.753 +05:30 [INF] Filtering member based on physician name
+2022-10-17 15:57:39.755 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-10-17 15:57:39.757 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2022-10-17 15:57:39.757 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2022-10-17 15:57:39.758 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-10-17 15:57:39.758 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-10-17 15:57:39.758 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-10-17 15:57:39.758 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HcmMemberSearch.Modals.Member, HcmMemberSearch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-10-17 15:57:39.768 +05:30 [INF] Executed action HcmMemberSearch.Controllers.MemberSearch.GetMembersByPhysicianName (HcmMemberSearch) in 295.964ms
+2022-10-17 15:57:39.768 +05:30 [INF] Executed endpoint 'HcmMemberSearch.Controllers.MemberSearch.GetMembersByPhysicianName (HcmMemberSearch)'
+2022-10-17 15:57:39.769 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/HealthCare/GetMembersByPhysicianName?name=Mark - - - 200 - application/json;+charset=utf-8 351.8150ms
+2022-10-17 15:59:34.864 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 15:59:34.961 +05:30 [DBG] Hosting starting
+2022-10-17 15:59:35.005 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 15:59:35.005 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 15:59:35.005 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 15:59:35.005 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 15:59:35.006 +05:30 [INF] Hosting environment: Development
+2022-10-17 15:59:35.006 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 15:59:35.006 +05:30 [DBG] Hosting started
+2022-10-17 15:59:35.026 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 15:59:35.052 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 15:59:35.071 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 15:59:35.072 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:59:35.151 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 15:59:35.251 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 15:59:35.254 +05:30 [DBG] Connection ID "17942340955709374530" disconnecting.
+2022-10-17 15:59:35.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 231.0460ms
+2022-10-17 15:59:35.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 15:59:35.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 15:59:35.260 +05:30 [DBG] Connection ID "17942340925644603490" disconnecting.
+2022-10-17 15:59:35.260 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.8800ms
+2022-10-17 15:59:35.291 +05:30 [DBG] Connection ID "18158513703463419914" disconnecting.
+2022-10-17 15:59:35.291 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.4427ms
+2022-10-17 15:59:35.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 15:59:35.456 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 15:59:35.456 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 15:59:35.552 +05:30 [DBG] Connection ID "18230571340451020848" disconnecting.
+2022-10-17 15:59:35.552 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.6228ms
+2022-10-17 16:06:54.145 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:06:54.242 +05:30 [DBG] Hosting starting
+2022-10-17 16:06:54.286 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:06:54.286 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:06:54.286 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:06:54.287 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:06:54.287 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:06:54.287 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:06:54.287 +05:30 [DBG] Hosting started
+2022-10-17 16:06:54.308 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:06:54.338 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:06:54.364 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:06:54.364 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:06:54.453 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:06:54.562 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:06:54.564 +05:30 [DBG] Connection ID "18230571301796315303" disconnecting.
+2022-10-17 16:06:54.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 260.5995ms
+2022-10-17 16:06:54.568 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:06:54.569 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:06:54.572 +05:30 [DBG] Connection ID "18374686485577203842" disconnecting.
+2022-10-17 16:06:54.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.3517ms
+2022-10-17 16:06:54.603 +05:30 [DBG] Connection ID "17942340917054668811" disconnecting.
+2022-10-17 16:06:54.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.5566ms
+2022-10-17 16:06:54.865 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:06:54.865 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:06:54.865 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:06:54.964 +05:30 [DBG] Connection ID "18014398541157367887" disconnecting.
+2022-10-17 16:06:54.964 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.3164ms
+2022-10-17 16:10:04.425 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:10:04.529 +05:30 [DBG] Hosting starting
+2022-10-17 16:10:04.570 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:10:04.570 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:10:04.570 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:10:04.571 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:10:04.571 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:10:04.571 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:10:04.571 +05:30 [DBG] Hosting started
+2022-10-17 16:10:04.591 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:10:04.617 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:10:04.636 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:10:04.637 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:10:04.721 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:10:04.821 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:10:04.822 +05:30 [DBG] Connection ID "18086456122310393884" disconnecting.
+2022-10-17 16:10:04.823 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 234.9212ms
+2022-10-17 16:10:04.827 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:10:04.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:10:04.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.1866ms
+2022-10-17 16:10:04.862 +05:30 [DBG] Connection ID "18158513703463419916" disconnecting.
+2022-10-17 16:10:04.862 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.4448ms
+2022-10-17 16:10:05.149 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:10:05.149 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:10:05.149 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:10:05.239 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.6019ms
+2022-10-17 16:10:05.239 +05:30 [DBG] Connection ID "18014398541157367889" disconnecting.
+2022-10-17 16:11:23.518 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:11:23.612 +05:30 [DBG] Hosting starting
+2022-10-17 16:11:23.654 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:11:23.655 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:11:23.655 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:11:23.655 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:11:23.655 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:11:23.655 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:11:23.655 +05:30 [DBG] Hosting started
+2022-10-17 16:11:23.675 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:11:23.700 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:11:23.717 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:11:23.718 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:11:23.799 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:11:23.891 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:11:23.892 +05:30 [DBG] Connection ID "18158513724938256455" disconnecting.
+2022-10-17 16:11:23.893 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 220.4206ms
+2022-10-17 16:11:23.897 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:11:23.903 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:11:23.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.4011ms
+2022-10-17 16:11:23.906 +05:30 [DBG] Connection ID "17870283323016740903" disconnecting.
+2022-10-17 16:11:23.930 +05:30 [DBG] Connection ID "18158513703463419920" disconnecting.
+2022-10-17 16:11:23.930 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.5366ms
+2022-10-17 16:11:24.065 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:11:24.065 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:11:24.065 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:11:24.165 +05:30 [DBG] Connection ID "18374686528526876715" disconnecting.
+2022-10-17 16:11:24.165 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.1210ms
+2022-10-17 16:12:31.191 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:12:31.296 +05:30 [DBG] Hosting starting
+2022-10-17 16:12:31.340 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:12:31.340 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:12:31.340 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:12:31.340 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:12:31.341 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:12:31.341 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:12:31.341 +05:30 [DBG] Hosting started
+2022-10-17 16:12:31.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:12:31.388 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:12:31.408 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:12:31.408 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:12:31.492 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:12:31.595 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:12:31.597 +05:30 [DBG] Connection ID "18158513733528191015" disconnecting.
+2022-10-17 16:12:31.598 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 241.5503ms
+2022-10-17 16:12:31.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:12:31.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:12:31.603 +05:30 [DBG] Connection ID "18158513703463419922" disconnecting.
+2022-10-17 16:12:31.603 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.2892ms
+2022-10-17 16:12:31.634 +05:30 [DBG] Connection ID "18374686485577203850" disconnecting.
+2022-10-17 16:12:31.634 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.3400ms
+2022-10-17 16:12:31.767 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:12:31.767 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:12:31.767 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:12:31.867 +05:30 [DBG] Connection ID "18230571340451020852" disconnecting.
+2022-10-17 16:12:31.867 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.9027ms
+2022-10-17 16:13:03.318 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:13:03.491 +05:30 [DBG] Hosting starting
+2022-10-17 16:13:03.554 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:13:03.554 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:13:03.554 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:13:03.554 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:13:03.554 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:13:03.554 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:13:03.554 +05:30 [DBG] Hosting started
+2022-10-17 16:13:03.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:13:03.713 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:13:03.766 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:13:03.767 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:13:03.954 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:13:04.064 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:13:04.066 +05:30 [DBG] Connection ID "18158513720643289326" disconnecting.
+2022-10-17 16:13:04.067 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 456.7885ms
+2022-10-17 16:13:04.086 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:13:04.088 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:13:04.095 +05:30 [DBG] Connection ID "18158513737823158590" disconnecting.
+2022-10-17 16:13:04.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 6.7433ms
+2022-10-17 16:13:04.127 +05:30 [DBG] Connection ID "18302628921604047046" disconnecting.
+2022-10-17 16:13:04.127 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7301ms
+2022-10-17 16:13:04.257 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:13:04.258 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:13:04.258 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:13:04.358 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.2735ms
+2022-10-17 16:14:42.635 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:14:42.753 +05:30 [DBG] Hosting starting
+2022-10-17 16:14:42.804 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:14:42.804 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:14:42.804 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:14:42.804 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:14:42.804 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:14:42.804 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:14:42.804 +05:30 [DBG] Hosting started
+2022-10-17 16:14:42.829 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:14:42.859 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:14:42.879 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:14:42.880 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:14:42.975 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:14:43.076 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:14:43.078 +05:30 [DBG] Connection ID "18086456105130524712" disconnecting.
+2022-10-17 16:14:43.079 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 253.8450ms
+2022-10-17 16:14:43.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:14:43.081 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:14:43.084 +05:30 [DBG] Connection ID "17870283335901642787" disconnecting.
+2022-10-17 16:14:43.084 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.2668ms
+2022-10-17 16:14:43.115 +05:30 [DBG] Connection ID "18302628900129210443" disconnecting.
+2022-10-17 16:14:43.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.8916ms
+2022-10-17 16:14:43.245 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:14:43.246 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:14:43.246 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:14:43.353 +05:30 [DBG] Connection ID "18086456105130524714" disconnecting.
+2022-10-17 16:14:43.353 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.7762ms
+2022-10-17 16:15:06.594 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:15:06.705 +05:30 [DBG] Hosting starting
+2022-10-17 16:15:06.752 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:15:06.752 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:15:06.752 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:15:06.752 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:15:06.753 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:15:06.753 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:15:06.753 +05:30 [DBG] Hosting started
+2022-10-17 16:15:06.773 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:15:06.802 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:15:06.827 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:15:06.827 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:15:06.913 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:15:07.019 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:15:07.021 +05:30 [DBG] Connection ID "18158513703463419925" disconnecting.
+2022-10-17 16:15:07.021 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 251.2322ms
+2022-10-17 16:15:07.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:15:07.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:15:07.025 +05:30 [DBG] Connection ID "17798225759043584069" disconnecting.
+2022-10-17 16:15:07.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.9749ms
+2022-10-17 16:15:07.059 +05:30 [DBG] Connection ID "18230571340451020854" disconnecting.
+2022-10-17 16:15:07.060 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.0655ms
+2022-10-17 16:15:07.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:15:07.224 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:15:07.225 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:15:07.332 +05:30 [DBG] Connection ID "17942340955709374544" disconnecting.
+2022-10-17 16:15:07.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.1455ms
+2022-10-17 16:17:26.115 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:17:26.211 +05:30 [DBG] Hosting starting
+2022-10-17 16:17:26.251 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:17:26.251 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:17:26.251 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:17:26.251 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:17:26.252 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:17:26.252 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:17:26.252 +05:30 [DBG] Hosting started
+2022-10-17 16:17:26.273 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:17:26.300 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:17:26.321 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:17:26.321 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:17:26.400 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:17:26.504 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:17:26.506 +05:30 [DBG] Connection ID "17870283335901642791" disconnecting.
+2022-10-17 16:17:26.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 236.5471ms
+2022-10-17 16:17:26.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:17:26.510 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:17:26.513 +05:30 [DBG] Connection ID "17726168165005656129" disconnecting.
+2022-10-17 16:17:26.513 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.5925ms
+2022-10-17 16:17:26.540 +05:30 [DBG] Connection ID "18014398541157367899" disconnecting.
+2022-10-17 16:17:26.541 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.0372ms
+2022-10-17 16:17:26.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:17:26.647 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:17:26.647 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:17:26.744 +05:30 [DBG] Connection ID "18158513724938256459" disconnecting.
+2022-10-17 16:17:26.744 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.4169ms
+2022-10-17 16:18:22.035 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:18:22.126 +05:30 [DBG] Hosting starting
+2022-10-17 16:18:22.168 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:18:22.168 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:18:22.168 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:18:22.168 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:18:22.169 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:18:22.169 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:18:22.169 +05:30 [DBG] Hosting started
+2022-10-17 16:18:22.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:18:22.219 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:18:22.238 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:18:22.238 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:18:22.329 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:18:22.427 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:18:22.429 +05:30 [DBG] Connection ID "18086456139490263165" disconnecting.
+2022-10-17 16:18:22.430 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 245.8792ms
+2022-10-17 16:18:22.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:18:22.432 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:18:22.435 +05:30 [DBG] Connection ID "17798225759043584072" disconnecting.
+2022-10-17 16:18:22.435 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 2.8003ms
+2022-10-17 16:18:22.466 +05:30 [DBG] Connection ID "17942340925644603508" disconnecting.
+2022-10-17 16:18:22.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.0270ms
+2022-10-17 16:18:22.571 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:18:22.571 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:18:22.571 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:18:22.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.6862ms
+2022-10-17 16:18:22.663 +05:30 [DBG] Connection ID "18374686485577203859" disconnecting.
+2022-10-17 16:24:47.321 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:24:47.423 +05:30 [DBG] Hosting starting
+2022-10-17 16:24:47.469 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:24:47.469 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:24:47.469 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:24:47.469 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:24:47.469 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:24:47.469 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:24:47.469 +05:30 [DBG] Hosting started
+2022-10-17 16:24:47.494 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:24:47.522 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:24:47.544 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:24:47.544 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:24:47.625 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:24:47.731 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:24:47.733 +05:30 [DBG] Connection ID "18374686502757072978" disconnecting.
+2022-10-17 16:24:47.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 242.6538ms
+2022-10-17 16:24:47.735 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:24:47.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:24:47.739 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.3499ms
+2022-10-17 16:24:47.773 +05:30 [DBG] Connection ID "18158513707758387295" disconnecting.
+2022-10-17 16:24:47.774 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.3813ms
+2022-10-17 16:24:47.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:24:47.890 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:24:47.890 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:24:47.990 +05:30 [DBG] Connection ID "18086456148080197639" disconnecting.
+2022-10-17 16:24:47.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.4890ms
+2022-10-17 16:43:15.900 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 16:43:15.993 +05:30 [DBG] Hosting starting
+2022-10-17 16:43:16.032 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 16:43:16.032 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 16:43:16.032 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 16:43:16.033 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 16:43:16.033 +05:30 [INF] Hosting environment: Development
+2022-10-17 16:43:16.033 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 16:43:16.033 +05:30 [DBG] Hosting started
+2022-10-17 16:43:16.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 16:43:16.079 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 16:43:16.098 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 16:43:16.098 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:43:16.171 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 16:43:16.278 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 16:43:16.280 +05:30 [DBG] Connection ID "18158513703463419929" disconnecting.
+2022-10-17 16:43:16.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 229.1464ms
+2022-10-17 16:43:16.287 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 16:43:16.289 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 16:43:16.293 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.5752ms
+2022-10-17 16:43:16.325 +05:30 [DBG] Connection ID "18230571297501347857" disconnecting.
+2022-10-17 16:43:16.326 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.0563ms
+2022-10-17 16:43:16.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 16:43:16.558 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 16:43:16.558 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 16:43:16.647 +05:30 [DBG] Connection ID "18086456105130524721" disconnecting.
+2022-10-17 16:43:16.647 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.9028ms
+2022-10-17 17:00:02.110 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 17:00:02.196 +05:30 [DBG] Hosting starting
+2022-10-17 17:00:02.237 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 17:00:02.237 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 17:00:02.237 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 17:00:02.238 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 17:00:02.238 +05:30 [INF] Hosting environment: Development
+2022-10-17 17:00:02.238 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 17:00:02.238 +05:30 [DBG] Hosting started
+2022-10-17 17:00:02.257 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 17:00:02.279 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 17:00:02.295 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 17:00:02.295 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 17:00:02.370 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 17:00:02.463 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 17:00:02.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 211.2575ms
+2022-10-17 17:00:02.476 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 17:00:02.477 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 17:00:02.480 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.7223ms
+2022-10-17 17:00:02.480 +05:30 [DBG] Connection ID "18086456105130524723" disconnecting.
+2022-10-17 17:00:02.509 +05:30 [DBG] Connection ID "18302628900129210457" disconnecting.
+2022-10-17 17:00:02.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.9537ms
+2022-10-17 17:00:02.742 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 17:00:02.742 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 17:00:02.742 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 17:00:02.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.0251ms
+2022-10-17 17:00:02.829 +05:30 [DBG] Connection ID "18014398549747302478" disconnecting.
+2022-10-17 17:06:21.303 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 17:06:21.409 +05:30 [DBG] Hosting starting
+2022-10-17 17:06:21.453 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 17:06:21.453 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 17:06:21.453 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 17:06:21.454 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 17:06:21.454 +05:30 [INF] Hosting environment: Development
+2022-10-17 17:06:21.454 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 17:06:21.454 +05:30 [DBG] Hosting started
+2022-10-17 17:06:21.474 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 17:06:21.504 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 17:06:21.526 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 17:06:21.526 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 17:06:21.617 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 17:06:21.730 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 17:06:21.732 +05:30 [DBG] Connection ID "18086456105130524727" disconnecting.
+2022-10-17 17:06:21.733 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 261.6608ms
+2022-10-17 17:06:21.746 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 17:06:21.746 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 17:06:21.750 +05:30 [DBG] Connection ID "18374686515641974946" disconnecting.
+2022-10-17 17:06:21.750 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.6979ms
+2022-10-17 17:06:21.781 +05:30 [DBG] Connection ID "18302628930193981568" disconnecting.
+2022-10-17 17:06:21.782 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.5569ms
+2022-10-17 17:06:21.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 17:06:21.954 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 17:06:21.954 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 17:06:22.063 +05:30 [DBG] Connection ID "18158513724938256462" disconnecting.
+2022-10-17 17:06:22.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.0075ms
+2022-10-17 17:08:42.042 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-17 17:08:42.130 +05:30 [DBG] Hosting starting
+2022-10-17 17:08:42.180 +05:30 [DBG] Loaded hosting startup assembly HcmMemberSearch
+2022-10-17 17:08:42.180 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-10-17 17:08:42.180 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-10-17 17:08:42.180 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-17 17:08:42.180 +05:30 [INF] Hosting environment: Development
+2022-10-17 17:08:42.180 +05:30 [INF] Content root path: C:\HCM\HcmMemberSearch\HcmMemberSearch\
+2022-10-17 17:08:42.180 +05:30 [DBG] Hosting started
+2022-10-17 17:08:42.199 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/index.html - -
+2022-10-17 17:08:42.227 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-17 17:08:42.246 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2022-10-17 17:08:42.247 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 17:08:42.330 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-10-17 17:08:42.421 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2022-10-17 17:08:42.423 +05:30 [DBG] Connection ID "18014398528272465941" disconnecting.
+2022-10-17 17:08:42.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/index.html - - - 200 - text/html;charset=utf-8 227.0536ms
+2022-10-17 17:08:42.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - -
+2022-10-17 17:08:42.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/_vs/browserLink - -
+2022-10-17 17:08:42.429 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 3.0115ms
+2022-10-17 17:08:42.461 +05:30 [DBG] Connection ID "17870283335901642803" disconnecting.
+2022-10-17 17:08:42.462 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.0215ms
+2022-10-17 17:08:42.568 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - -
+2022-10-17 17:08:42.568 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2022-10-17 17:08:42.568 +05:30 [DBG] Request did not match any endpoints
+2022-10-17 17:08:42.671 +05:30 [DBG] Connection ID "18374686485577203895" disconnecting.
+2022-10-17 17:08:42.671 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44325/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.7105ms

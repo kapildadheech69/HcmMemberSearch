@@ -1,7 +1,11 @@
 ﻿using HcmMemberSearch.Modals;
+using HcmMemberSearch.Provider;
+using HcmMemberSearch.Provider.IProvider;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System.Diagnostics.Metrics;
+using System.Net;
+using System.Web.Http;
+using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 namespace HcmMemberSearch.Controllers
 {
@@ -9,76 +13,90 @@ namespace HcmMemberSearch.Controllers
     [Route("HealthCare")]
     public class MemberSearch:ControllerBase
     {
-        MemberHelper _memberHelper = new MemberHelper();
-        ClaimHelper _claimHelper = new ClaimHelper();
+        private readonly IClaims _claims;
+        private readonly IMembers _members;
+        private readonly IPhysicians _physicians;
+        private readonly ILogger<MemberSearch> log;
+        public MemberSearch(IClaims claims, IMembers members, IPhysicians physicians, ILogger<MemberSearch> log)
+        {
+            _claims = claims;
+            _members = members;
+            _physicians = physicians;
+            this.log = log; 
+        }
 
         [HttpGet]
         [Route("ByMemberId/{id}")]
         public async Task<ActionResult<Member>> GetMemberByMemberId(int id)
         {
-            List<Member> members = new List<Member>();
-            HttpClient client = _memberHelper.Initial();
-            HttpResponseMessage res = await client.GetAsync("HealthCare/GetMembers");
+            log.LogInformation("Getting members from member microservice");
 
-            if (res.IsSuccessStatusCode)
+            List<Member> members = await _members.GetMembersAsync();
+
+            log.LogInformation("filtering member based on id provided");
+
+            var member = members.FirstOrDefault(m => m.MemberId == id);
+            if (member == null)
             {
-                var results = res.Content.ReadAsStringAsync().Result;
-                members = JsonConvert.DeserializeObject<List<Member>>(results);
-                var member = members.FirstOrDefault(m => m.MemberId == id);
-                if(member == null)
-                    return NotFound("No member found by this  id " + id);
-                return Ok(members);
+                var msg = new HttpResponseMessage(HttpStatusCode.NotFound)
+                {
+                    Content = new StringContent(string.Format("No members found by this id " + id))
+                };
+                throw new HttpResponseException(msg);
             }
-            return NotFound("No members in database");
+            return Ok(member);
         }
 
         [HttpGet]
         [Route("ByFirstNameAndLastName")]
         public async Task<ActionResult<IList<Member>>> GetMembersFirstNameAndLastName(string? firstName = null, string? lastName = null)
         {
-            List<Member> members = new List<Member>();
-            HttpClient client = _memberHelper.Initial();
-            HttpResponseMessage res = await client.GetAsync("HealthCare/GetMembers");
+            log.LogInformation("Getting members from member microservice");
 
-            if (res.IsSuccessStatusCode)
+            List<Member> members = await _members.GetMembersAsync();
+
+            log.LogInformation("Filtering member based on first and last name");
+
+            var Members = members.Where(m => m.FirstName == firstName && m.LastName == lastName).ToList();
+            if (Members.Count == 0)
             {
-                var results = res.Content.ReadAsStringAsync().Result;
-                members = JsonConvert.DeserializeObject<List<Member>>(results);
-                var Members = members.Where(m => m.FirstName == firstName && m.LastName == lastName).ToList();
-                if (Members.Count == 0)
-                    return NotFound("No member found by this name " + firstName + " " +lastName);
-                return Ok(Members);
+                var msg = new HttpResponseMessage(HttpStatusCode.NotFound)
+                {
+                    Content = new StringContent(string
+                    .Format("No members found by this name {0} {1}", firstName, lastName))
+                };
+                throw new HttpResponseException(msg);
             }
-            return NotFound("No members in database");
+            return Ok(Members);
         }
 
         [HttpGet]
         [Route("GetMemberByClaim/{id}")]
         public async Task<ActionResult<Member>> GetMemberByClaimId(int id)
         {
-            List<Claim> claims = new List<Claim>();
-            HttpClient client = _claimHelper.Initial();
-            HttpResponseMessage res = await client.GetAsync("HealthCare/GetClaims");
+            log.LogInformation("Getting claims from claims microservice");
 
-            if (res.IsSuccessStatusCode)
+            List<Claim> claims = await _claims.GetClaims();
+
+            log.LogInformation("Filtering claims based on id provided");
+
+            var claim = claims.SingleOrDefault(c => c.ClaimId == id);
+            if (claim == null)
             {
-                var results = res.Content.ReadAsStringAsync().Result;
-                claims = JsonConvert.DeserializeObject<List<Claim>>(results);
-                var claim = claims.SingleOrDefault(c => c.ClaimId == id);
-                if (claim == null)
-                    return NotFound("No member with claim id " + id);
-
-                List<Member> members = new List<Member>();
-                HttpClient Client = _memberHelper.Initial();
-                HttpResponseMessage Res = await client.GetAsync("HealthCare/GetMembers");
-
-                var Results = Res.Content.ReadAsStringAsync().Result;
-                members = JsonConvert.DeserializeObject<List<Member>>(Results);
-                var member = members.Single(m => m.MemberId == claim.MemberId);
-                Ok(member);
-
+                var msg = new HttpResponseMessage(HttpStatusCode.NotFound)
+                {
+                    Content = new StringContent(string.Format("No member with claim id " + id))
+                };
+                throw new HttpResponseException(msg);
             }
-            return NotFound("No claims in database");
+            log.LogInformation("Getting members from member microservice");
+
+            List<Member> members = await _members.GetMembersAsync();
+
+            log.LogInformation("Filtering member");
+
+            var member = members.Single(m => m.MemberId == claim.MemberId);
+            return Ok(member);
         }
 
         [HttpGet]
@@ -86,30 +104,28 @@ namespace HcmMemberSearch.Controllers
 
         public async Task<ActionResult<Member>> GetMembersByPhysicianName(string? name = null)
         {
-            List<Member> members = new List<Member>();
-            HttpClient client = _memberHelper.Initial();
-            HttpResponseMessage res = await client.GetAsync("HealthCare/GetMembers");
+            log.LogInformation("Getting members from member microservice");
 
-            if (res.IsSuccessStatusCode)
+            List<Member> members = await _members.GetMembersAsync();
+            IEnumerable<Physician> physicians = new List<Physician>();
+
+            log.LogInformation("Getting physician from physician microservice");
+
+            physicians = await _physicians.GetPhysicians();
+            Physician physician = new Physician();
+
+            log.LogInformation("Filtering physician based on physician name");
+
+            physician = physicians.Single(p => p.PhysicianName == name);
+
+            log.LogInformation("Filtering member based on physician name");
+
+            var Members = members.Where(m => m.PhysicianId == physician.PhysicianId).ToList();
+            if (Members.Count == 0)
             {
-                var results = res.Content.ReadAsStringAsync().Result;
-                members = JsonConvert.DeserializeObject<List<Member>>(results);
-                List<Physician> physicians = new List<Physician>();
-                HttpResponseMessage Res = await client.GetAsync("HealthCare/Physicians");
-                if(Res.IsSuccessStatusCode)
-                {
-                    var Results = Res.Content.ReadAsStringAsync().Result;
-                    physicians = JsonConvert.DeserializeObject<List<Physician>>(Results);
-                    Physician physician = new Physician();
-                    physician = physicians.Single(p => p.PhysicianName == name);
-                    var Members = members.Where( m => m.PhysicianId == physician.PhysicianId).ToList();
-                    if(Members.Count == 0)
-                        return NotFound("No Physician with physician name " + name);
-                    return Ok(Members);
-                }
-                return NotFound("No physicians in database");
+                return NotFound("No members with this physician name" + name);
             }
-            return NotFound("No members in database");
+            return Ok(Members);
         }
     }
 }

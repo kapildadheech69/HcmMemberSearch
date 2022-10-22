@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTests", "ProviderNUnitTests\NUnitTests.csproj", "{8CB50FC8-013C-4AA3-BF9F-E7DB9BBECA98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{E8284A92-A76C-49F9-B65D-44EFCE439EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8284A92-A76C-49F9-B65D-44EFCE439EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8284A92-A76C-49F9-B65D-44EFCE439EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB50FC8-013C-4AA3-BF9F-E7DB9BBECA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB50FC8-013C-4AA3-BF9F-E7DB9BBECA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB50FC8-013C-4AA3-BF9F-E7DB9BBECA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB50FC8-013C-4AA3-BF9F-E7DB9BBECA98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
