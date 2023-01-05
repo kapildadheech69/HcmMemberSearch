@@ -1,0 +1,1430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7617" branch-rate="0.43329999999999996" version="1.9" timestamp="1671104584" lines-covered="323" lines-valid="424" branches-covered="13" branches-valid="30">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="HcmMemberSearch" line-rate="0.6099" branch-rate="0.43329999999999996" complexity="67">
+      <classes>
+        <class name="Program" filename="HCM\HcmMemberSearch\HcmMemberSearch\Program.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="7" hits="0" branch="False" />
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="273" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+                <line number="39" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="34" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="273" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="39" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Provider.Claims" filename="HCM\HcmMemberSearch\HcmMemberSearch\Provider\Claims.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(HcmMemberSearch.Helper.IHelper.IClaimHelper)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Provider.Claims/&lt;GetClaims&gt;d__2" filename="HCM\HcmMemberSearch\HcmMemberSearch\Provider\Claims.cs" line-rate="0.2666" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.2666" branch-rate="0" complexity="2">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="193" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="193" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Provider.Members" filename="HCM\HcmMemberSearch\HcmMemberSearch\Provider\Members.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(HcmMemberSearch.Helper.IHelper.IMemberHelper)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Provider.Members/&lt;GetMembersAsync&gt;d__2" filename="HCM\HcmMemberSearch\HcmMemberSearch\Provider\Members.cs" line-rate="0.2666" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.2666" branch-rate="0" complexity="2">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="193" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="193" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Provider.Physicians" filename="HCM\HcmMemberSearch\HcmMemberSearch\Provider\Physicians.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(HcmMemberSearch.Helper.IHelper.IMemberHelper)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Provider.Physicians/&lt;GetPhysicians&gt;d__2" filename="HCM\HcmMemberSearch\HcmMemberSearch\Provider\Physicians.cs" line-rate="0.2666" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.2666" branch-rate="0" complexity="2">
+              <lines>
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="193" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
+            <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="193" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Modals.Claim" filename="HCM\HcmMemberSearch\HcmMemberSearch\Modals\Claim.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_ClaimId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ClaimType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ClaimAmount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Remarks" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ClaimDate" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_MemberId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="36" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="40" branch="False" />
+            <line number="11" hits="32" branch="False" />
+            <line number="13" hits="32" branch="False" />
+            <line number="16" hits="32" branch="False" />
+            <line number="18" hits="32" branch="False" />
+            <line number="20" hits="36" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Modals.Member" filename="HCM\HcmMemberSearch\HcmMemberSearch\Modals\Member.cs" line-rate="1" branch-rate="1" complexity="11">
+          <methods>
+            <method name="get_MemberId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="44" branch="False" />
+              </lines>
+            </method>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="40" branch="False" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="34" branch="False" />
+              </lines>
+            </method>
+            <method name="get_UserName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Address" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_State" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_City" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_DateOfBirth" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="32" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhysicianId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="72" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhysicianName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="8" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="44" branch="False" />
+            <line number="14" hits="40" branch="False" />
+            <line number="18" hits="34" branch="False" />
+            <line number="20" hits="32" branch="False" />
+            <line number="23" hits="32" branch="False" />
+            <line number="25" hits="32" branch="False" />
+            <line number="27" hits="32" branch="False" />
+            <line number="30" hits="32" branch="False" />
+            <line number="32" hits="32" branch="False" />
+            <line number="34" hits="72" branch="False" />
+            <line number="36" hits="8" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Modals.Physician" filename="HCM\HcmMemberSearch\HcmMemberSearch\Modals\Physician.cs" line-rate="0.25" branch-rate="0" complexity="10">
+          <methods>
+            <method name="get_PhysicianId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="192" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhysicianName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="192" branch="False" />
+              </lines>
+            </method>
+            <method name="get_PhysicianState" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="152" branch="False" />
+              </lines>
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="0%" />
+                    <condition number="51" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="192" branch="False" />
+            <line number="6" hits="192" branch="False" />
+            <line number="7" hits="152" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="32" type="jump" coverage="0%" />
+                <condition number="51" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Helper.ClaimHelper" filename="HCM\HcmMemberSearch\HcmMemberSearch\Helper\ClaimHelper.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Initial" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Helper.MemberHelper" filename="HCM\HcmMemberSearch\HcmMemberSearch\Helper\MemberHelper.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Initial" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
+                <line number="12" hits="2" branch="False" />
+                <line number="13" hits="2" branch="False" />
+                <line number="14" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="12" hits="2" branch="False" />
+            <line number="13" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(HcmMemberSearch.Provider.IProvider.IClaims,HcmMemberSearch.Provider.IProvider.IMembers,HcmMemberSearch.Provider.IProvider.IPhysicians,Microsoft.Extensions.Logging.ILogger`1&lt;HcmMemberSearch.Controllers.MemberSearch&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="16" branch="False" />
+                <line number="21" hits="16" branch="False" />
+                <line number="22" hits="16" branch="False" />
+                <line number="23" hits="16" branch="False" />
+                <line number="24" hits="16" branch="False" />
+                <line number="25" hits="16" branch="False" />
+                <line number="26" hits="16" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="20" hits="16" branch="False" />
+            <line number="21" hits="16" branch="False" />
+            <line number="22" hits="16" branch="False" />
+            <line number="23" hits="16" branch="False" />
+            <line number="24" hits="16" branch="False" />
+            <line number="25" hits="16" branch="False" />
+            <line number="26" hits="16" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;&gt;c__DisplayClass5_0" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;GetMemberByMemberId&gt;b__0" signature="(HcmMemberSearch.Modals.Member)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;GetMemberByMemberId&gt;b__1" signature="(HcmMemberSearch.Modals.Physician)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="12" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="39" hits="12" branch="False" />
+            <line number="52" hits="12" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;&gt;c__DisplayClass6_0" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;GetMembersFirstNameAndLastName&gt;b__0" signature="(HcmMemberSearch.Modals.Member)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="67" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="17" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="67" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="17" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;&gt;c__DisplayClass6_1" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetMembersFirstNameAndLastName&gt;b__1" signature="(HcmMemberSearch.Modals.Physician)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="83" hits="12" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="83" hits="12" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;&gt;c__DisplayClass7_0" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;GetMemberByUserName&gt;b__0" signature="(HcmMemberSearch.Modals.Member)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="100" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;GetMemberByUserName&gt;b__1" signature="(HcmMemberSearch.Modals.Physician)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="113" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="100" hits="0" branch="False" />
+            <line number="113" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;&gt;c__DisplayClass8_0" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="&lt;GetMemberByClaimId&gt;b__0" signature="(HcmMemberSearch.Modals.Claim)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="128" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;GetMemberByClaimId&gt;b__1" signature="(HcmMemberSearch.Modals.Member)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="143" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;GetMemberByClaimId&gt;b__2" signature="(HcmMemberSearch.Modals.Physician)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="149" hits="18" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="128" hits="12" branch="False" />
+            <line number="143" hits="6" branch="False" />
+            <line number="149" hits="18" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;&gt;c__DisplayClass9_0" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="&lt;GetMembersByPhysicianName&gt;b__0" signature="(HcmMemberSearch.Modals.Physician)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="171" hits="36" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;GetMembersByPhysicianName&gt;b__1" signature="(HcmMemberSearch.Modals.Member)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="175" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="171" hits="36" branch="False" />
+            <line number="175" hits="6" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;GetMemberByClaimId&gt;d__8" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="121" hits="4" branch="False" />
+                <line number="122" hits="4" branch="False" />
+                <line number="124" hits="4" branch="False" />
+                <line number="126" hits="4" branch="False" />
+                <line number="129" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="312" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="130" hits="2" branch="False" />
+                <line number="131" hits="2" branch="False" />
+                <line number="132" hits="2" branch="False" />
+                <line number="133" hits="2" branch="False" />
+                <line number="134" hits="2" branch="False" />
+                <line number="135" hits="2" branch="False" />
+                <line number="137" hits="2" branch="False" />
+                <line number="139" hits="2" branch="False" />
+                <line number="141" hits="2" branch="False" />
+                <line number="145" hits="2" branch="False" />
+                <line number="146" hits="2" branch="False" />
+                <line number="147" hits="2" branch="False" />
+                <line number="148" hits="2" branch="False" />
+                <line number="150" hits="2" branch="False" />
+                <line number="151" hits="2" branch="False" />
+                <line number="152" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="121" hits="4" branch="False" />
+            <line number="122" hits="4" branch="False" />
+            <line number="124" hits="4" branch="False" />
+            <line number="126" hits="4" branch="False" />
+            <line number="129" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="312" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="130" hits="2" branch="False" />
+            <line number="131" hits="2" branch="False" />
+            <line number="132" hits="2" branch="False" />
+            <line number="133" hits="2" branch="False" />
+            <line number="134" hits="2" branch="False" />
+            <line number="135" hits="2" branch="False" />
+            <line number="137" hits="2" branch="False" />
+            <line number="139" hits="2" branch="False" />
+            <line number="141" hits="2" branch="False" />
+            <line number="145" hits="2" branch="False" />
+            <line number="146" hits="2" branch="False" />
+            <line number="147" hits="2" branch="False" />
+            <line number="148" hits="2" branch="False" />
+            <line number="150" hits="2" branch="False" />
+            <line number="151" hits="2" branch="False" />
+            <line number="152" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;GetMemberByMemberId&gt;d__5" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="31" hits="4" branch="False" />
+                <line number="33" hits="4" branch="False" />
+                <line number="35" hits="4" branch="False" />
+                <line number="37" hits="4" branch="False" />
+                <line number="40" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="298" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="41" hits="2" branch="False" />
+                <line number="42" hits="2" branch="False" />
+                <line number="43" hits="2" branch="False" />
+                <line number="44" hits="2" branch="False" />
+                <line number="45" hits="2" branch="False" />
+                <line number="46" hits="2" branch="False" />
+                <line number="48" hits="2" branch="False" />
+                <line number="49" hits="2" branch="False" />
+                <line number="50" hits="2" branch="False" />
+                <line number="51" hits="2" branch="False" />
+                <line number="53" hits="2" branch="False" />
+                <line number="54" hits="2" branch="False" />
+                <line number="55" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="31" hits="4" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="35" hits="4" branch="False" />
+            <line number="37" hits="4" branch="False" />
+            <line number="40" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="298" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="41" hits="2" branch="False" />
+            <line number="42" hits="2" branch="False" />
+            <line number="43" hits="2" branch="False" />
+            <line number="44" hits="2" branch="False" />
+            <line number="45" hits="2" branch="False" />
+            <line number="46" hits="2" branch="False" />
+            <line number="48" hits="2" branch="False" />
+            <line number="49" hits="2" branch="False" />
+            <line number="50" hits="2" branch="False" />
+            <line number="51" hits="2" branch="False" />
+            <line number="53" hits="2" branch="False" />
+            <line number="54" hits="2" branch="False" />
+            <line number="55" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;GetMemberByUserName&gt;d__7" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="92" hits="0" branch="False" />
+                <line number="94" hits="0" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="101" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="298" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="109" hits="0" branch="False" />
+                <line number="110" hits="0" branch="False" />
+                <line number="111" hits="0" branch="False" />
+                <line number="112" hits="0" branch="False" />
+                <line number="114" hits="0" branch="False" />
+                <line number="115" hits="0" branch="False" />
+                <line number="116" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="92" hits="0" branch="False" />
+            <line number="94" hits="0" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="101" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="298" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="109" hits="0" branch="False" />
+            <line number="110" hits="0" branch="False" />
+            <line number="111" hits="0" branch="False" />
+            <line number="112" hits="0" branch="False" />
+            <line number="114" hits="0" branch="False" />
+            <line number="115" hits="0" branch="False" />
+            <line number="116" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;GetMembersByPhysicianName&gt;d__9" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="0.8887999999999999" branch-rate="0.75" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.8887999999999999" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="158" hits="4" branch="False" />
+                <line number="159" hits="4" branch="False" />
+                <line number="161" hits="4" branch="False" />
+                <line number="162" hits="4" branch="False" />
+                <line number="164" hits="4" branch="False" />
+                <line number="166" hits="4" branch="False" />
+                <line number="167" hits="4" branch="False" />
+                <line number="169" hits="4" branch="False" />
+                <line number="173" hits="2" branch="False" />
+                <line number="176" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="551" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="177" hits="0" branch="False" />
+                <line number="178" hits="0" branch="False" />
+                <line number="180" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="682" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="181" hits="2" branch="False" />
+                <line number="182" hits="2" branch="False" />
+                <line number="183" hits="2" branch="False" />
+                <line number="184" hits="2" branch="False" />
+                <line number="185" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="158" hits="4" branch="False" />
+            <line number="159" hits="4" branch="False" />
+            <line number="161" hits="4" branch="False" />
+            <line number="162" hits="4" branch="False" />
+            <line number="164" hits="4" branch="False" />
+            <line number="166" hits="4" branch="False" />
+            <line number="167" hits="4" branch="False" />
+            <line number="169" hits="4" branch="False" />
+            <line number="173" hits="2" branch="False" />
+            <line number="176" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="551" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="177" hits="0" branch="False" />
+            <line number="178" hits="0" branch="False" />
+            <line number="180" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="682" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="181" hits="2" branch="False" />
+            <line number="182" hits="2" branch="False" />
+            <line number="183" hits="2" branch="False" />
+            <line number="184" hits="2" branch="False" />
+            <line number="185" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="HcmMemberSearch.Controllers.MemberSearch/&lt;GetMembersFirstNameAndLastName&gt;d__6" filename="HCM\HcmMemberSearch\HcmMemberSearch\Controllers\MemberSearch.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="60" hits="4" branch="False" />
+                <line number="61" hits="4" branch="False" />
+                <line number="63" hits="4" branch="False" />
+                <line number="65" hits="4" branch="False" />
+                <line number="68" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="315" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="69" hits="2" branch="False" />
+                <line number="70" hits="2" branch="False" />
+                <line number="71" hits="2" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="73" hits="2" branch="False" />
+                <line number="74" hits="2" branch="False" />
+                <line number="75" hits="2" branch="False" />
+                <line number="77" hits="2" branch="False" />
+                <line number="78" hits="2" branch="False" />
+                <line number="79" hits="2" branch="False" />
+                <line number="80" hits="2" branch="False" />
+                <line number="81" hits="10" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="707" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="82" hits="2" branch="False" />
+                <line number="84" hits="2" branch="False" />
+                <line number="85" hits="2" branch="False" />
+                <line number="86" hits="2" branch="False" />
+                <line number="87" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="60" hits="4" branch="False" />
+            <line number="61" hits="4" branch="False" />
+            <line number="63" hits="4" branch="False" />
+            <line number="65" hits="4" branch="False" />
+            <line number="68" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="315" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="69" hits="2" branch="False" />
+            <line number="70" hits="2" branch="False" />
+            <line number="71" hits="2" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="73" hits="2" branch="False" />
+            <line number="74" hits="2" branch="False" />
+            <line number="75" hits="2" branch="False" />
+            <line number="77" hits="2" branch="False" />
+            <line number="78" hits="2" branch="False" />
+            <line number="79" hits="2" branch="False" />
+            <line number="80" hits="2" branch="False" />
+            <line number="81" hits="10" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="707" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="82" hits="2" branch="False" />
+            <line number="84" hits="2" branch="False" />
+            <line number="85" hits="2" branch="False" />
+            <line number="86" hits="2" branch="False" />
+            <line number="87" hits="2" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="NUnitTests" line-rate="0.9617" branch-rate="1" complexity="14">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="Users\2116067\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ControllerNUnitTests" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ControllerNUnitTests.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="16" branch="False" />
+                <line number="30" hits="16" branch="False" />
+                <line number="31" hits="16" branch="False" />
+                <line number="32" hits="16" branch="False" />
+                <line number="33" hits="16" branch="False" />
+                <line number="34" hits="16" branch="False" />
+                <line number="35" hits="16" branch="False" />
+                <line number="36" hits="16" branch="False" />
+                <line number="37" hits="16" branch="False" />
+                <line number="38" hits="16" branch="False" />
+                <line number="39" hits="16" branch="False" />
+                <line number="40" hits="16" branch="False" />
+                <line number="41" hits="16" branch="False" />
+                <line number="42" hits="16" branch="False" />
+                <line number="43" hits="16" branch="False" />
+                <line number="44" hits="16" branch="False" />
+                <line number="45" hits="16" branch="False" />
+                <line number="46" hits="16" branch="False" />
+                <line number="47" hits="16" branch="False" />
+                <line number="48" hits="16" branch="False" />
+                <line number="49" hits="16" branch="False" />
+                <line number="50" hits="16" branch="False" />
+                <line number="51" hits="16" branch="False" />
+                <line number="52" hits="16" branch="False" />
+                <line number="53" hits="16" branch="False" />
+                <line number="54" hits="16" branch="False" />
+                <line number="55" hits="16" branch="False" />
+                <line number="56" hits="16" branch="False" />
+                <line number="57" hits="16" branch="False" />
+                <line number="58" hits="16" branch="False" />
+                <line number="59" hits="16" branch="False" />
+                <line number="60" hits="16" branch="False" />
+                <line number="61" hits="16" branch="False" />
+                <line number="62" hits="16" branch="False" />
+                <line number="63" hits="16" branch="False" />
+                <line number="64" hits="16" branch="False" />
+                <line number="65" hits="16" branch="False" />
+                <line number="66" hits="16" branch="False" />
+                <line number="67" hits="16" branch="False" />
+                <line number="68" hits="16" branch="False" />
+                <line number="69" hits="16" branch="False" />
+                <line number="70" hits="16" branch="False" />
+                <line number="71" hits="16" branch="False" />
+                <line number="72" hits="16" branch="False" />
+                <line number="73" hits="16" branch="False" />
+                <line number="74" hits="16" branch="False" />
+                <line number="75" hits="16" branch="False" />
+              </lines>
+            </method>
+            <method name="GetMemberById_InputInvalidId_ReturnsNotFound" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="99" hits="2" branch="False" />
+                <line number="100" hits="2" branch="False" />
+                <line number="101" hits="2" branch="False" />
+                <line number="102" hits="2" branch="False" />
+                <line number="103" hits="2" branch="False" />
+                <line number="104" hits="2" branch="False" />
+                <line number="105" hits="2" branch="False" />
+                <line number="107" hits="2" branch="False" />
+                <line number="108" hits="2" branch="False" />
+                <line number="109" hits="2" branch="False" />
+                <line number="110" hits="4" branch="False" />
+                <line number="111" hits="2" branch="False" />
+                <line number="112" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetMember_InputFirstNameAndLastName_OutputNotFound" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="135" hits="2" branch="False" />
+                <line number="136" hits="2" branch="False" />
+                <line number="137" hits="2" branch="False" />
+                <line number="138" hits="2" branch="False" />
+                <line number="139" hits="2" branch="False" />
+                <line number="140" hits="2" branch="False" />
+                <line number="141" hits="2" branch="False" />
+                <line number="143" hits="2" branch="False" />
+                <line number="144" hits="2" branch="False" />
+                <line number="145" hits="2" branch="False" />
+                <line number="146" hits="4" branch="False" />
+                <line number="147" hits="2" branch="False" />
+                <line number="148" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetMember_InputClaimId_OutputNotFound" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="172" hits="2" branch="False" />
+                <line number="173" hits="2" branch="False" />
+                <line number="174" hits="2" branch="False" />
+                <line number="175" hits="2" branch="False" />
+                <line number="176" hits="2" branch="False" />
+                <line number="177" hits="2" branch="False" />
+                <line number="178" hits="2" branch="False" />
+                <line number="179" hits="2" branch="False" />
+                <line number="181" hits="2" branch="False" />
+                <line number="182" hits="2" branch="False" />
+                <line number="183" hits="2" branch="False" />
+                <line number="184" hits="4" branch="False" />
+                <line number="185" hits="2" branch="False" />
+                <line number="186" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetMembers_InputPhysicianName_OutputNotFound" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="209" hits="2" branch="False" />
+                <line number="210" hits="2" branch="False" />
+                <line number="211" hits="2" branch="False" />
+                <line number="212" hits="2" branch="False" />
+                <line number="213" hits="2" branch="False" />
+                <line number="214" hits="2" branch="False" />
+                <line number="215" hits="2" branch="False" />
+                <line number="217" hits="2" branch="False" />
+                <line number="218" hits="2" branch="False" />
+                <line number="219" hits="2" branch="False" />
+                <line number="220" hits="4" branch="False" />
+                <line number="221" hits="2" branch="False" />
+                <line number="223" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="16" branch="False" />
+            <line number="30" hits="16" branch="False" />
+            <line number="31" hits="16" branch="False" />
+            <line number="32" hits="16" branch="False" />
+            <line number="33" hits="16" branch="False" />
+            <line number="34" hits="16" branch="False" />
+            <line number="35" hits="16" branch="False" />
+            <line number="36" hits="16" branch="False" />
+            <line number="37" hits="16" branch="False" />
+            <line number="38" hits="16" branch="False" />
+            <line number="39" hits="16" branch="False" />
+            <line number="40" hits="16" branch="False" />
+            <line number="41" hits="16" branch="False" />
+            <line number="42" hits="16" branch="False" />
+            <line number="43" hits="16" branch="False" />
+            <line number="44" hits="16" branch="False" />
+            <line number="45" hits="16" branch="False" />
+            <line number="46" hits="16" branch="False" />
+            <line number="47" hits="16" branch="False" />
+            <line number="48" hits="16" branch="False" />
+            <line number="49" hits="16" branch="False" />
+            <line number="50" hits="16" branch="False" />
+            <line number="51" hits="16" branch="False" />
+            <line number="52" hits="16" branch="False" />
+            <line number="53" hits="16" branch="False" />
+            <line number="54" hits="16" branch="False" />
+            <line number="55" hits="16" branch="False" />
+            <line number="56" hits="16" branch="False" />
+            <line number="57" hits="16" branch="False" />
+            <line number="58" hits="16" branch="False" />
+            <line number="59" hits="16" branch="False" />
+            <line number="60" hits="16" branch="False" />
+            <line number="61" hits="16" branch="False" />
+            <line number="62" hits="16" branch="False" />
+            <line number="63" hits="16" branch="False" />
+            <line number="64" hits="16" branch="False" />
+            <line number="65" hits="16" branch="False" />
+            <line number="66" hits="16" branch="False" />
+            <line number="67" hits="16" branch="False" />
+            <line number="68" hits="16" branch="False" />
+            <line number="69" hits="16" branch="False" />
+            <line number="70" hits="16" branch="False" />
+            <line number="71" hits="16" branch="False" />
+            <line number="72" hits="16" branch="False" />
+            <line number="73" hits="16" branch="False" />
+            <line number="74" hits="16" branch="False" />
+            <line number="75" hits="16" branch="False" />
+            <line number="99" hits="2" branch="False" />
+            <line number="100" hits="2" branch="False" />
+            <line number="101" hits="2" branch="False" />
+            <line number="102" hits="2" branch="False" />
+            <line number="103" hits="2" branch="False" />
+            <line number="104" hits="2" branch="False" />
+            <line number="105" hits="2" branch="False" />
+            <line number="107" hits="2" branch="False" />
+            <line number="108" hits="2" branch="False" />
+            <line number="109" hits="2" branch="False" />
+            <line number="110" hits="4" branch="False" />
+            <line number="111" hits="2" branch="False" />
+            <line number="112" hits="2" branch="False" />
+            <line number="135" hits="2" branch="False" />
+            <line number="136" hits="2" branch="False" />
+            <line number="137" hits="2" branch="False" />
+            <line number="138" hits="2" branch="False" />
+            <line number="139" hits="2" branch="False" />
+            <line number="140" hits="2" branch="False" />
+            <line number="141" hits="2" branch="False" />
+            <line number="143" hits="2" branch="False" />
+            <line number="144" hits="2" branch="False" />
+            <line number="145" hits="2" branch="False" />
+            <line number="146" hits="4" branch="False" />
+            <line number="147" hits="2" branch="False" />
+            <line number="148" hits="2" branch="False" />
+            <line number="172" hits="2" branch="False" />
+            <line number="173" hits="2" branch="False" />
+            <line number="174" hits="2" branch="False" />
+            <line number="175" hits="2" branch="False" />
+            <line number="176" hits="2" branch="False" />
+            <line number="177" hits="2" branch="False" />
+            <line number="178" hits="2" branch="False" />
+            <line number="179" hits="2" branch="False" />
+            <line number="181" hits="2" branch="False" />
+            <line number="182" hits="2" branch="False" />
+            <line number="183" hits="2" branch="False" />
+            <line number="184" hits="4" branch="False" />
+            <line number="185" hits="2" branch="False" />
+            <line number="186" hits="2" branch="False" />
+            <line number="209" hits="2" branch="False" />
+            <line number="210" hits="2" branch="False" />
+            <line number="211" hits="2" branch="False" />
+            <line number="212" hits="2" branch="False" />
+            <line number="213" hits="2" branch="False" />
+            <line number="214" hits="2" branch="False" />
+            <line number="215" hits="2" branch="False" />
+            <line number="217" hits="2" branch="False" />
+            <line number="218" hits="2" branch="False" />
+            <line number="219" hits="2" branch="False" />
+            <line number="220" hits="4" branch="False" />
+            <line number="221" hits="2" branch="False" />
+            <line number="223" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ControllerNUnitTests/&lt;GetMemberById_InputMemberId_ReturnMember&gt;d__4" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ControllerNUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="81" hits="2" branch="False" />
+                <line number="82" hits="2" branch="False" />
+                <line number="83" hits="2" branch="False" />
+                <line number="84" hits="2" branch="False" />
+                <line number="85" hits="2" branch="False" />
+                <line number="86" hits="2" branch="False" />
+                <line number="87" hits="2" branch="False" />
+                <line number="89" hits="2" branch="False" />
+                <line number="90" hits="2" branch="False" />
+                <line number="91" hits="2" branch="False" />
+                <line number="92" hits="2" branch="False" />
+                <line number="93" hits="2" branch="False" />
+                <line number="94" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="81" hits="2" branch="False" />
+            <line number="82" hits="2" branch="False" />
+            <line number="83" hits="2" branch="False" />
+            <line number="84" hits="2" branch="False" />
+            <line number="85" hits="2" branch="False" />
+            <line number="86" hits="2" branch="False" />
+            <line number="87" hits="2" branch="False" />
+            <line number="89" hits="2" branch="False" />
+            <line number="90" hits="2" branch="False" />
+            <line number="91" hits="2" branch="False" />
+            <line number="92" hits="2" branch="False" />
+            <line number="93" hits="2" branch="False" />
+            <line number="94" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ControllerNUnitTests/&lt;GetMember_InputClaimId_OutPutMembers&gt;d__8" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ControllerNUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="153" hits="2" branch="False" />
+                <line number="154" hits="2" branch="False" />
+                <line number="155" hits="2" branch="False" />
+                <line number="156" hits="2" branch="False" />
+                <line number="157" hits="2" branch="False" />
+                <line number="158" hits="2" branch="False" />
+                <line number="159" hits="2" branch="False" />
+                <line number="160" hits="2" branch="False" />
+                <line number="162" hits="2" branch="False" />
+                <line number="163" hits="2" branch="False" />
+                <line number="164" hits="2" branch="False" />
+                <line number="165" hits="2" branch="False" />
+                <line number="166" hits="2" branch="False" />
+                <line number="167" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="153" hits="2" branch="False" />
+            <line number="154" hits="2" branch="False" />
+            <line number="155" hits="2" branch="False" />
+            <line number="156" hits="2" branch="False" />
+            <line number="157" hits="2" branch="False" />
+            <line number="158" hits="2" branch="False" />
+            <line number="159" hits="2" branch="False" />
+            <line number="160" hits="2" branch="False" />
+            <line number="162" hits="2" branch="False" />
+            <line number="163" hits="2" branch="False" />
+            <line number="164" hits="2" branch="False" />
+            <line number="165" hits="2" branch="False" />
+            <line number="166" hits="2" branch="False" />
+            <line number="167" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ControllerNUnitTests/&lt;GetMember_InputFirstNameAndLastName_OutputMembers&gt;d__6" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ControllerNUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="117" hits="2" branch="False" />
+                <line number="118" hits="2" branch="False" />
+                <line number="119" hits="2" branch="False" />
+                <line number="120" hits="2" branch="False" />
+                <line number="121" hits="2" branch="False" />
+                <line number="122" hits="2" branch="False" />
+                <line number="123" hits="2" branch="False" />
+                <line number="125" hits="2" branch="False" />
+                <line number="126" hits="2" branch="False" />
+                <line number="127" hits="2" branch="False" />
+                <line number="128" hits="2" branch="False" />
+                <line number="129" hits="2" branch="False" />
+                <line number="130" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="117" hits="2" branch="False" />
+            <line number="118" hits="2" branch="False" />
+            <line number="119" hits="2" branch="False" />
+            <line number="120" hits="2" branch="False" />
+            <line number="121" hits="2" branch="False" />
+            <line number="122" hits="2" branch="False" />
+            <line number="123" hits="2" branch="False" />
+            <line number="125" hits="2" branch="False" />
+            <line number="126" hits="2" branch="False" />
+            <line number="127" hits="2" branch="False" />
+            <line number="128" hits="2" branch="False" />
+            <line number="129" hits="2" branch="False" />
+            <line number="130" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ControllerNUnitTests/&lt;GetMember_InputPhysicianName_OutputMembers&gt;d__10" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ControllerNUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="191" hits="2" branch="False" />
+                <line number="192" hits="2" branch="False" />
+                <line number="193" hits="2" branch="False" />
+                <line number="194" hits="2" branch="False" />
+                <line number="195" hits="2" branch="False" />
+                <line number="196" hits="2" branch="False" />
+                <line number="197" hits="2" branch="False" />
+                <line number="199" hits="2" branch="False" />
+                <line number="200" hits="2" branch="False" />
+                <line number="201" hits="2" branch="False" />
+                <line number="202" hits="2" branch="False" />
+                <line number="203" hits="2" branch="False" />
+                <line number="204" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="191" hits="2" branch="False" />
+            <line number="192" hits="2" branch="False" />
+            <line number="193" hits="2" branch="False" />
+            <line number="194" hits="2" branch="False" />
+            <line number="195" hits="2" branch="False" />
+            <line number="196" hits="2" branch="False" />
+            <line number="197" hits="2" branch="False" />
+            <line number="199" hits="2" branch="False" />
+            <line number="200" hits="2" branch="False" />
+            <line number="201" hits="2" branch="False" />
+            <line number="202" hits="2" branch="False" />
+            <line number="203" hits="2" branch="False" />
+            <line number="204" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ProviderNUnitTest" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ProviderNUnitTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="SetUp" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="33" hits="3" branch="False" />
+                <line number="34" hits="3" branch="False" />
+                <line number="35" hits="3" branch="False" />
+                <line number="36" hits="3" branch="False" />
+                <line number="37" hits="3" branch="False" />
+                <line number="38" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="33" hits="3" branch="False" />
+            <line number="34" hits="3" branch="False" />
+            <line number="35" hits="3" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="37" hits="3" branch="False" />
+            <line number="38" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ProviderNUnitTest/&lt;GetClaims_OutputCount&gt;d__4" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ProviderNUnitTest.cs" line-rate="0.6" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="48" hits="1" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ProviderNUnitTest/&lt;GetMembers_OuputCount&gt;d__3" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ProviderNUnitTest.cs" line-rate="0.6" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.6" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="1" branch="False" />
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="41" hits="1" branch="False" />
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="NUnitTests.ProviderNUnitTest/&lt;GetPhysicians_OutputPhysicians&gt;d__5" filename="HCM\HcmMemberSearch\ProviderNUnitTests\ProviderNUnitTest.cs" line-rate="0.5" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0.5" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="58" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="58" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

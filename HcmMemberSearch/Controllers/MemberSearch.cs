@@ -29,13 +29,14 @@ namespace HcmMemberSearch.Controllers
         [Route("ByMemberId/{id}")]
         public async Task<ActionResult<Member>> GetMemberByMemberId(int id)
         {
+           
             log.LogInformation("Getting members from member microservice");
 
             List<Member> members = await _members.GetMembersAsync();
 
             log.LogInformation("filtering member based on id provided");
 
-            var member = members.FirstOrDefault(m => m.MemberId == id);
+            var member = members.SingleOrDefault(m => m.MemberId ==id);
             if (member == null)
             {
                 var msg = new HttpResponseMessage(HttpStatusCode.NotFound)
@@ -44,12 +45,18 @@ namespace HcmMemberSearch.Controllers
                 };
                 throw new HttpResponseException(msg);
             }
+            IEnumerable<Physician> physicians = new List<Physician>();
+            log.LogInformation("Getting physician from physician microservice");
+            physicians = await _physicians.GetPhysicians();
+            Physician physician = new Physician();
+            physician = physicians.FirstOrDefault(p => p.PhysicianId == member.PhysicianId);
+            member.PhysicianName = physician.PhysicianName;
             return Ok(member);
         }
 
         [HttpGet]
         [Route("ByFirstNameAndLastName")]
-        public async Task<ActionResult<IList<Member>>> GetMembersFirstNameAndLastName(string? firstName = null, string? lastName = null)
+        public async Task<ActionResult<IList<Member>>> GetMembersFirstNameAndLastName(string firstName = null, string lastName = null)
         {
             log.LogInformation("Getting members from member microservice");
 
@@ -67,7 +74,45 @@ namespace HcmMemberSearch.Controllers
                 };
                 throw new HttpResponseException(msg);
             }
+            IEnumerable<Physician> physicians = new List<Physician>();
+            log.LogInformation("Getting physician from physician microservice");
+            physicians = await _physicians.GetPhysicians();
+            Physician physician = new Physician();
+            foreach (var member in Members)
+            {
+                physician = physicians.FirstOrDefault(p => p.PhysicianId == member.PhysicianId);
+                member.PhysicianName = physician.PhysicianName;
+            }
             return Ok(Members);
+        }
+
+        [HttpGet]
+        [Route("GetMemberByUserName")]
+        public async Task<ActionResult<Member>> GetMemberByUserName(string username = null)
+        {
+
+            log.LogInformation("Getting members from member microservice");
+
+            List<Member> members = await _members.GetMembersAsync();
+
+            log.LogInformation("filtering member based on id provided");
+
+            var member = members.SingleOrDefault(m => m.UserName == username);
+            if (member == null)
+            {
+                var msg = new HttpResponseMessage(HttpStatusCode.NotFound)
+                {
+                    Content = new StringContent(string.Format("No members found by this username " + username))
+                };
+                throw new HttpResponseException(msg);
+            }
+            IEnumerable<Physician> physicians = new List<Physician>();
+            log.LogInformation("Getting physician from physician microservice");
+            physicians = await _physicians.GetPhysicians();
+            Physician physician = new Physician();
+            physician = physicians.FirstOrDefault(p => p.PhysicianId == member.PhysicianId);
+            member.PhysicianName = physician.PhysicianName;
+            return Ok(member);
         }
 
         [HttpGet]
@@ -96,13 +141,20 @@ namespace HcmMemberSearch.Controllers
             log.LogInformation("Filtering member");
 
             var member = members.Single(m => m.MemberId == claim.MemberId);
+
+            IEnumerable<Physician> physicians = new List<Physician>();
+            log.LogInformation("Getting physician from physician microservice");
+            physicians = await _physicians.GetPhysicians();
+            Physician physician = new Physician();
+            physician = physicians.SingleOrDefault(p => p.PhysicianId == member.PhysicianId);
+            member.PhysicianName = physician.PhysicianName; 
             return Ok(member);
         }
 
         [HttpGet]
         [Route("GetMembersByPhysicianName")]
 
-        public async Task<ActionResult<Member>> GetMembersByPhysicianName(string? name = null)
+        public async Task<ActionResult<Member>> GetMembersByPhysicianName(string name = null)
         {
             log.LogInformation("Getting members from member microservice");
 
@@ -124,6 +176,10 @@ namespace HcmMemberSearch.Controllers
             if (Members.Count == 0)
             {
                 return NotFound("No members with this physician name" + name);
+            }
+            foreach (var member in Members)
+            {
+                member.PhysicianName = physician.PhysicianName; 
             }
             return Ok(Members);
         }

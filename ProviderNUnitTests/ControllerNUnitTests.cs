@@ -84,6 +84,7 @@ namespace NUnitTests
             var membersMock = new Mock<IMembers>();
             var physiciansMock = new Mock<IPhysicians>();
             membersMock.Setup(u => u.GetMembersAsync()).ReturnsAsync(members);
+            physiciansMock.Setup(u => u.GetPhysicians()).ReturnsAsync(physicians);
 
             MemberSearch memberSearch = new MemberSearch(claimsMock.Object, membersMock.Object, 
                 physiciansMock.Object, logMock.Object);
@@ -101,6 +102,7 @@ namespace NUnitTests
             var membersMock = new Mock<IMembers>();
             var physiciansMock = new Mock<IPhysicians>();
             membersMock.Setup(u => u.GetMembersAsync()).ReturnsAsync(members);
+            physiciansMock.Setup(u => u.GetPhysicians()).ReturnsAsync(physicians);
 
             MemberSearch memberSearch = new MemberSearch(claimsMock.Object, membersMock.Object,
                 physiciansMock.Object, logMock.Object);
@@ -118,6 +120,7 @@ namespace NUnitTests
             var membersMock = new Mock<IMembers>();
             var physiciansMock = new Mock<IPhysicians>();
             membersMock.Setup(u => u.GetMembersAsync()).ReturnsAsync(members);
+            physiciansMock.Setup(u => u.GetPhysicians()).ReturnsAsync(physicians);
 
             MemberSearch memberSearch = new MemberSearch(claimsMock.Object, membersMock.Object,
                 physiciansMock.Object, logMock.Object);
@@ -135,6 +138,7 @@ namespace NUnitTests
             var membersMock = new Mock<IMembers>();
             var physiciansMock = new Mock<IPhysicians>();
             membersMock.Setup(u => u.GetMembersAsync()).ReturnsAsync(members);
+            physiciansMock.Setup(u => u.GetPhysicians()).ReturnsAsync(physicians);
 
             MemberSearch memberSearch = new MemberSearch(claimsMock.Object, membersMock.Object,
                 physiciansMock.Object, logMock.Object);
@@ -153,6 +157,7 @@ namespace NUnitTests
             var physiciansMock = new Mock<IPhysicians>();
             membersMock.Setup(u => u.GetMembersAsync()).ReturnsAsync(members);
             claimsMock.Setup(u => u.GetClaims()).ReturnsAsync(claims);
+            physiciansMock.Setup(u => u.GetPhysicians()).ReturnsAsync(physicians);
 
             MemberSearch memberSearch = new MemberSearch(claimsMock.Object, membersMock.Object,
                 physiciansMock.Object, logMock.Object);
@@ -171,6 +176,7 @@ namespace NUnitTests
             var physiciansMock = new Mock<IPhysicians>();
             membersMock.Setup(u => u.GetMembersAsync()).ReturnsAsync(members);
             claimsMock.Setup(u => u.GetClaims()).ReturnsAsync(claims);
+            physiciansMock.Setup(u => u.GetPhysicians()).ReturnsAsync(physicians);
 
             MemberSearch memberSearch = new MemberSearch(claimsMock.Object, membersMock.Object,
                 physiciansMock.Object, logMock.Object);

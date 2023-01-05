@@ -32,5 +32,7 @@ namespace HcmMemberSearch.Modals
         public DateTime DateOfBirth { get; set; }
         [Required]
         public int PhysicianId { get; set; }
+        [Required]
+        public string PhysicianName { get; set; }
     }
 }
